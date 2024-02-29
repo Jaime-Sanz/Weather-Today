@@ -42,21 +42,21 @@ export function displayUserData(weatherInfo){
         switch(weatherCondition){
             case "Moderate rain":
             case "Patchy rain nearby":
-                icon.src = '../assets/drizzle.gif';
+                icon.src = './drizzle.gif';
                 break;
             case "Sunny":
-                icon.src = '../assets/sun.gif';
+                icon.src = './sun.gif';
                 break;
             case "Patchy moderate snow":
             case "Patchy light snow":
             case "Freezing fog":
-                icon.src = '../assets/snow.gif';
+                icon.src = './snow.gif';
                 break;
             case "Overcast ":
             case "Partly Cloudy ":
             case "Cloudy ":
             case "Fog":
-                icon.src = '../assets/clouds.gif';
+                icon.src = './clouds.gif';
                 break;
         }
 
