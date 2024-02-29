@@ -1,44 +1,35 @@
-# Your Project Name
+![](assets/Preview1.jpg)
 
-Brief description of your project.
+# Installation
+> Note
+>
+> > [A live deployment of Weather Today is available on GitHub pages](https://jaime-sanz.github.io/Weather-Today/)
 
-## Table of Contents
+For those who would like to run the application and/or edit its source code on their local computer, follow the steps below:
 
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-- [Building and Running](#building-and-running)
-- [Linting](#linting)
-- [Contributing](#contributing)
-- [License](#license)
+1. Clone the repository with `git clone https://github.com/Jaime-Sanz/Weahter-Today` or download it as a .zip file and extract it.
+2. Navigate to where the repository is saved on your local machine and open its index.html file on your preferred web browser.
 
-## Getting Started
+# Usage
+- Provides current weather information based on user input location.
+- Displays a 3-day weather forecast for the selected location.
+- Offers a user-friendly interface for easy navigation and interaction.
 
-### Prerequisites
+# Preview
 
-Before you begin, ensure you have the following installed:
+| Weather Searched |
+| --- |
+| <img src="assets/Preview2.jpg" width="720px" height="480px"> |
 
-- [Node.js](https://nodejs.org/)
-- [npm](https://www.npmjs.com/) (Node Package Manager)
 
-### Installation
+# Built Using
+> [![My Skills](https://skillicons.dev/icons?i=js,html,css,vscode,webpack,discord)](https://skillicons.dev)
 
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/your-username/your-repo.git
-2. Install dependencies:
-  npm install
-
-Building and Running
-To build the project and generate the dist folder, run:
-npm run build
-
-This command uses webpack to bundle your JavaScript and CSS files.
-To view the project in the browser, you can use:
-npm start
-
-Linting
-To lint your code using Standard, run the following command:
-npm run lint
-
+# Contributing
+Feel free to submit an issue should a bug be found using the application.
+# License
+[MIT License](https://github.com/Jaime-Sanz/Weather-Today/blob/main/LICENSE)
+# Contact Info
+> Send a message by clicking on the icon!
+> 
+> [![My Skills](https://skillicons.dev/icons?i=linkedin)](https://www.linkedin.com/in/jaime-sanchez-a95874245/)
