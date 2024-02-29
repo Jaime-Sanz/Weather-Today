@@ -25,8 +25,8 @@ function sortUserData (userData){
     const weatherInfo = [];
     userData.forecast.forecastday.forEach(dayData => {
         const day = dayData.date;
-        const hightemperature = dayData.date.maxtemp_f;
-        const lowtemperature = dayData.date.mintemp_f
+        const hightemperature = dayData.day.maxtemp_f;
+        const lowtemperature = dayData.day.mintemp_f
         const condition = dayData.day.condition.text;
         
         const dayWeather = {day, hightemperature, lowtemperature, condition};

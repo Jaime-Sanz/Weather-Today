@@ -4,10 +4,12 @@ import { getWeather } from './get-user-data';
 document.getElementById('locationWeather').addEventListener('submit', function(event){
     event.preventDefault();
     let userLocation = document.getElementById('userLocation').value;
-    getWeather(userLocation);
-});
+    let formWeather = document.getElementById('locationWeather');
+    let containerBlocks = document.getElementById('weather-blocks');
 
-let d = new Date();
-const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
-let weekDay = days[d.getDay()];
-console.log(weekDay);
+    while (containerBlocks.firstChild) {
+        containerBlocks.removeChild(containerBlocks.firstChild);
+    }
+
+    getWeather(userLocation);    
+});
